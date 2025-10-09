@@ -1,0 +1,14 @@
+# Rust build
+/target
+
+# Cargo package files
+**/*.rs.bk
+Cargo.lock
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
