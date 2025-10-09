@@ -13,11 +13,16 @@ fn bubble_sort(vec: &mut Vec<u32>) -> u32 {
     }
     let mut iterations = 0;
     for index in 0..vec.len(){
+        let mut swapped = false;
         for pivot in index..vec.len() {
             if vec[index] > vec[pivot] {
                 swap_values(vec, index, pivot);
+                swapped=true
             }
             iterations += 1;
+        }
+        if !swapped {
+            return iterations;
         }
     }
     iterations
