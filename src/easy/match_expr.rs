@@ -1,4 +1,4 @@
-use crate::aa_easy::match_expr::CreatureType::{ANIMAL, LEGENDARY, UNKNOWN};
+use crate::easy::match_expr::CreatureType::{ANIMAL, LEGENDARY, UNKNOWN};
 
 fn is_an_animal(to_test: &str) -> bool {
     matches!(to_test, "cow" | "wolf" | "cat" | "dog" | "bird")

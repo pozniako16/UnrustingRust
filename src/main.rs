@@ -1,9 +1,9 @@
 mod sorting;
-mod aa_easy;
+mod easy;
 
-use crate::aa_easy::variables::run_variables;
-use crate::aa_easy::match_expr::run_match_expr;
-use crate::aa_easy::ownership::ownership;
+use crate::easy::variables::run_variables;
+use crate::easy::match_expr::run_match_expr;
+use crate::easy::ownership::ownership;
 
 fn main() {
     //println!("Variables:");
